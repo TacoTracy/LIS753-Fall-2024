@@ -13,8 +13,8 @@ figure  {
   border: 2px solid gray;
   border-image-width: 30px;
   padding: 10px;
-  bottom-margin: 12px;
-  right-margin: 10px;
+  margin-bottom: 12px;
+  margin-right: 10px;
 }
 
 figure img {
@@ -41,15 +41,15 @@ p img {
   margin-bottom: 32px;
   }
 
-  a{
+  a {
    font-weight: bold;
    color: orange;
    }
 
-   ul li a [
+   ul li a {
     text-decoration: none;
-   ]
-
+   }
+   
    ul li a:hover {
     text-decoration: underline;
    }
