@@ -41,7 +41,7 @@ p img {
   margin-bottom: 32px;
 }
 
-a {
+.navLink {
   font-weight: bold;
   color: #114876;
 }
