@@ -1,0 +1,39 @@
+header {
+  padding: 0 150px 0 150px;
+}
+
+#headerText {
+  color: #4b873d;
+  font-family: "Calibri";
+  font-size: 48px;
+  text-align: center;
+}
+
+#subHeader {
+  font-size: 24px;
+  font-family: Tahoma;
+  text-align: center;
+}
+
+#smallBlurb {
+  text-align: center;
+}
+
+#sectionsContainer {
+  padding: 40px 150px 40px 150px;
+}
+
+.sectionHeader {
+  font-family: Tahoma;
+  text-align: center;
+}
+
+#bookTypes {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.bookType {
+  width: fit-content;
+}
