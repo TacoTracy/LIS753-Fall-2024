@@ -21,6 +21,7 @@ header {
 
 #sectionsContainer {
   padding: 40px 150px 40px 150px;
+  justify-items: center;
 }
 
 .sectionHeader {
