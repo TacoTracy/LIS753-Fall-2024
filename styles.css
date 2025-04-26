@@ -2,12 +2,6 @@ body {
   font-family: arial;
 }
 
-h1 {
-  font-size: 85px;
-  color: #114876;
-  text-align: left;
-}
-
 figure {
   width: 50%;
   border: 2px solid gray;
@@ -44,6 +38,14 @@ p img {
 .navLink {
   font-weight: bold;
   color: #114876;
+}
+
+#myAmazingHeader {
+  font-size: 85px;
+  color: #114876;
+  text-align: center;
+  border-top: 1 solid #114876;
+  border-bottom: 1 solid #114876;
 }
 
 ul li a {
