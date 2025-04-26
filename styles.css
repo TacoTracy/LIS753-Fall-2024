@@ -41,11 +41,9 @@ p img {
 }
 
 #myAmazingHeader {
+  font-family: Impact, sans-serif;
   font-size: 85px;
   color: #114876;
-  text-align: center;
-  border-top: 1 solid #114876;
-  border-bottom: 1 solid #114876;
 }
 
 ul li a {
