@@ -1,6 +1,6 @@
 body {
   font-family: arial;
-  }
+}
 
 h1 {
   font-size: 85px;
@@ -8,7 +8,7 @@ h1 {
   text-align: left;
 }
 
-figure  {
+figure {
   width: 50%;
   border: 2px solid gray;
   border-image-width: 30px;
@@ -25,12 +25,12 @@ figure img {
 p img {
   height: 10%;
   width: auto;
-    }
+}
 
 p {
   text-align: left;
   margin-left: 40px;
-  margin-right: 70px
+  margin-right: 70px;
 }
 
 p img {
@@ -39,17 +39,17 @@ p img {
   max-width: 30%;
   margin-left: 20px;
   margin-bottom: 32px;
-  }
+}
 
-  a {
-   font-weight: bold;
-   color: orange;
-   }
+a {
+  font-weight: bold;
+  color: orange;
+}
 
-   ul li a {
-    text-decoration: none;
-   }
-   
-   ul li a:hover {
-    text-decoration: underline;
-   }
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
