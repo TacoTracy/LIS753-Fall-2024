@@ -33,6 +33,10 @@ p {
   color: #114876;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 ul li a {
   text-decoration: none;
 }
@@ -42,7 +46,19 @@ ul li a:hover {
 }
 
 @media all and (min-width: 768px) {
-  figure img {
-    max-width: 320px;
+  figure {
+    max-width: 50%;
   }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+#clickMeButton {
+  background-color: #5555ff;
+  color: white;
+  padding: 10px;
 }
