@@ -16,23 +16,10 @@ figure img {
   height: auto;
 }
 
-p img {
-  height: 10%;
-  width: auto;
-}
-
 p {
   text-align: left;
   margin-left: 40px;
   margin-right: 70px;
-}
-
-p img {
-  border: solid gray;
-  float: right;
-  max-width: 30%;
-  margin-left: 20px;
-  margin-bottom: 32px;
 }
 
 .navLink {
@@ -52,4 +39,10 @@ ul li a {
 
 ul li a:hover {
   text-decoration: underline;
+}
+
+@media all and (min-width: 768px) {
+  figure img {
+    max-width: 320px;
+  }
 }
