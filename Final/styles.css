@@ -1,0 +1,103 @@
+body {
+background-color: #ffe3ed;
+color: #423d2f;
+font-family: Tahoma;
+}
+
+#headerTitle {
+    font-family: Tahoma;
+    font-size: 64px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navButton {
+    font-size: 32px;
+    padding: 15px 25px 15px 25px;
+    background-color: #AA336A;
+    color: white;
+    text-decoration: none;
+}
+
+#colorSection {
+    display: flex;
+    width: 100%;
+}
+
+#colorSection img {
+    max-width: 25%;
+    height: auto;
+}
+
+#colorSection ul li {
+    font-size: 24px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 200px;
+}
+
+a {
+    color: #AA336A;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+footer {
+    background-color: #AA336A;
+    padding: 30px;
+    color: white;
+    margin-top: 25px;
+}
+
+#lakeImagesContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#lakeImagesContainer img {
+    max-width: 50%;
+    height: auto;
+}
+
+.imageContainer img {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+}
+
+.logos {
+    max-width: 250px;
+    width: 100%;
+}
+
+.imageCredit {
+    font-size: 12px;
+}
+
+@media all and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+}
